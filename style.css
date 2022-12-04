@@ -1,0 +1,202 @@
+#page {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav_bar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(53, 53, 53);
+    height: 50px;
+}
+
+#nav_bar_right {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+#nav_bar_left {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.nav_bar_buttom {
+    height: 80%;
+    border: solid 1px transparent;
+    border-radius: 7px;
+    background-color: rgb(53, 53, 53);
+    margin-right: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar_but {
+    font-size: 17px;
+}
+
+#link_but {
+    color: rgba(255, 255, 255, 0.603);
+}
+
+#dis_but {
+    color: rgba(255, 255, 255, 0.247);
+}
+
+.dropdown {
+    position: relative;
+}
+
+#dropbtn {
+    width: 100px;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    width: 100px
+}
+
+.dropdown_content a{
+    width: 100px;
+    cursor: pointer;
+    outline: solid black 1px;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    border: solid 1px transparent;
+    border-radius: 7px;
+    margin-bottom: 2px;
+}
+
+.dropdown_content a:hover {
+    outline: solid 2px white;
+}
+
+.dropdown_content a:hover {
+    color: rgb(86, 57, 248);
+}
+
+.dropdown:hover .dropdown_content {
+    display: flex;
+    flex-direction: column;   
+}
+
+#navbar_but:hover, #link_but:hover, #dropbtn:hover, #home_but:hover {
+    outline: solid 2px white;
+    color: rgb(86, 57, 248);
+}
+
+#navbar_in {
+    outline: none;
+    border: solid 1px black;
+    border-radius: 7px;
+    width: 200px;
+    height: 70%;
+    text-indent: 5px;
+    margin-right: 3px;
+}
+
+#navbar_in:focus {
+    color: green;
+    font-weight: bold;
+    outline: solid green 3px;
+}
+
+#in_but {
+    background-color: transparent;
+    border: solid green 1.5px;
+    color: green;
+    border-radius: 7px;
+    height: 70%;
+    cursor: pointer;
+}
+
+#in_but:hover {
+    background-color: white;
+}
+
+#in_but:active {
+    transform: translateY(2px);
+    transition-duration: 0.2s;
+}
+
+#center_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.342);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#center_h {
+    width: 65%;
+}
+
+#center_par {
+    width: 65%;
+}
+
+#center_but_div {
+    width: 65%;
+}
+
+#buttom_div {
+    display: flex;
+    justify-content: center;
+}
+
+.containers_div {
+    width: 65%;
+    display: flex;
+}
+
+.container {
+    padding-right: 10px;
+}
+
+.more_buttom {
+    font-weight: bold;
+    font-size: 15px;
+    border: solid transparent 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#learn_more {
+    background-color: rgb(86, 57, 248);
+    color: white;
+    height: 45px;
+}
+
+#learn_more:hover {
+    background-color: transparent;
+    outline: solid rgb(86, 57, 248) 2px;
+    color: rgb(86, 57, 248);
+}
+
+.view_details {
+    background-color: gray;
+    color: white;
+    height: 35px;
+}
+
+.view_details:hover {
+    background-color: transparent;
+    color: gray;
+    outline: solid gray 2px;
+}
+
+.more_buttom:active {
+    transform: translateY(2px);
+    transition-duration: 0.3s;
+}
